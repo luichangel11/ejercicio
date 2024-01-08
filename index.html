@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="styles/estiloIndex.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <form class="d-flex" role="search">
+                <div class="input-group">
+                    <i class="bi bi-search"></i>
+                    <input id="campoBusqueda" class="form-control me-2" type="search" placeholder="Filtrar por nombre" aria-label="Search">
+                </div>
+                <a class="btn btn-outline-success" type="button" href="registrar.html">Registrar nuevo usuario</a>
+            </form>
+            <div class="navbar-text">
+                <div class="container" style="background-color: rgb(43, 43, 43); border-radius: 0.7em;">
+                    <div class="row align-items-center">
+                        <div class="col-md-3">
+                            <p class="texto-blanco">Datos personales:</p>
+                        </div>
+                        <div class="col-md-5 ms-auto">
+                            <p class="texto-blanco" style="margin-bottom: 5px;">Luis Angel Calderon Fernandez</p>
+                            <p class="texto-blanco" style="margin-bottom: 5px;">luichtec@gmail.com</p>
+                            <p class="texto-blanco" style="margin-bottom: 5px;">luichangel11</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/yo.jpg" style="max-width: 100%; height: auto;" alt="Descripción de la imagen">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+  <div class="container mt-3">
+    <div class="row" id="tarjetas"></div>
+  </div>
+
+  <script src="script/scriptIndex.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
